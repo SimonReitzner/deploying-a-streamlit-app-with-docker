@@ -1,0 +1,61 @@
+[global]
+disableWatchdogWarning = false
+showWarningOnDirectExecution = true
+
+[logger]
+level = "debug"
+messageFormat = "%(asctime)s %(levelname) -7s %(name)s: %(message)s"
+
+[client]
+caching = true
+displayEnabled = true
+showErrorDetails = true
+
+[runner]
+magicEnabled = true
+installTracer = false
+fixMatplotlib = true
+postScriptGC = true
+
+[server]
+folderWatchBlacklist = []
+fileWatcherType = "auto"
+cookieSecret = "f8b7582082c5a4903916139e55a911170246459cdd73190983f806b7fc81623e"
+headless = true
+runOnSave = true
+#address =
+port = 8501
+baseUrlPath = ""
+enableCORS = true
+enableXsrfProtection = true
+maxUploadSize = 200
+enableWebsocketCompression = true
+
+[browser]
+serverAddress = "localhost"
+gatherUsageStats = false
+serverPort = 8501
+
+[mapbox]
+token = ""
+
+[deprecation]
+showfileUploaderEncoding = "True"
+showPyplotGlobalUse = "True"
+
+[s3]
+#bucket =
+#url =
+#accessKeyId =
+#secretAccessKey =
+keyPrefix = ""
+#region =
+#profile =
+
+[theme]
+base = "dark"
+primaryColor = "purple"
+#backgroundColor =
+#secondaryBackgroundColor =
+#textColor =
+font = "sans serif"
