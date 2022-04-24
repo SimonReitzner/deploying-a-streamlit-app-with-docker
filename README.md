@@ -51,6 +51,7 @@ The streamlit app is deployed to port `8080` and can be accessed by [http://loca
    ```sh
    docker run --detach --restart always -p 8080:8501 streamlit:latest
    ```
+![screenshot](./screenshot.png)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
